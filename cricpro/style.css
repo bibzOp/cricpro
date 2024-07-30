@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png') no-repeat center center;
+    background-size: cover;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .scorecard {
+    background: rgba(201, 180, 180, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .innings-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E74C3C;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  td a {
+    color: #2980B9;
+    text-decoration: none;
+  }
+  
+  td a:hover {
+    text-decoration: underline;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  
+  footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #999;
+  }
+  
+  .heart {
+    color: red;
+  }
+  
